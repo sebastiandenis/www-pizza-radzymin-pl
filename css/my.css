@@ -97,6 +97,23 @@ hr.star-white:after {
   }
 }
 
+tr.flag {
+  background-color: white;
+}
+
+tr.flag:nth-child(2), tr.flag:nth-child(1), tr.flag:nth-child(6), tr.flag:nth-child(10), tr.flag:nth-child(14), tr.flag:nth-child(18), tr.flag:nth-child(22), tr.flag:nth-child(26),
+tr.flag:nth-child(30) , tr.flag:nth-child(34) , tr.flag:nth-child(38), tr.flag:nth-child(42) , tr.flag:nth-child(46)    {
+  background-color: #dcefdd;
+}
+
+tr.flag:nth-child(4), tr.flag:nth-child(8), tr.flag:nth-child(12), tr.flag:nth-child(16), tr.flag:nth-child(20),tr.flag:nth-child(24),tr.flag:nth-child(28),tr.flag:nth-child(32),
+tr.flag:nth-child(36), tr.flag:nth-child(40), tr.flag:nth-child(44), tr.flag:nth-child(48) {
+  background-color: #ffe6e8;
+}
+
+
+
+
 tr.italy-green {
   background-color: #dcefdd;
 }
